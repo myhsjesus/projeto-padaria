@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #cc6752;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 30%;
+}
+
+.header-logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    gap: 20%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.destaque-resumo{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-image: url(padariafundo.png); 
+max-width: 100%;
+height: 250px;
+opacity: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+color: #ffffff;
+text-align: center;
+padding: 20px;
+}  
+.destaque {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f3e2;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.destaque h1 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 3em;
+    color: #d2691e; 
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.destaque p {
+    font-family: 'Georgia', serif; 
+    font-size: 2.0em;
+    color: #fff; 
+    line-height: 1.6;
+    margin: 20px 0;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.destaque img {
+    width: 70%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.destaque-resumo{
+    display: flex;
+    align-items: center;
+}
+
+.cardapio {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardapio h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    color: #d2691e;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cardapio h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+
+.cardapio img {
+    width: 70%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.card h4 {
+    font-family: 'Arial', sans-serif;
+    color: #d2691e;
+}
+
+.card-food{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-food img{
+    max-width: 100px;
+}
+
+.refeicao img{
+    max-width: 1000px;
+}
+
+footer {
+    background-color: #cc6752;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer img{
+    max-width: 15px;
+}
+
